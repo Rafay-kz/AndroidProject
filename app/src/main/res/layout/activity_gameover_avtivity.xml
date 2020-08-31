@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sp"
+    tools:context=".GameOver">
+
+    <TextView
+        android:id="@+id/gameOver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="GAME OVER"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="70dp"
+        android:textStyle="italic"
+        app:fontFamily="@font/bangers" />
+    <Button
+        android:id="@+id/play_again_btn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/highestscore"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:text="P L A Y    A G A I N"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+android:textSize="18sp"
+        android:fontFamily="@font/kavoon"
+         />
+
+    <TextView
+        android:id="@+id/totalscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="225dp"
+        android:gravity="center_horizontal"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        app:fontFamily="@font/bangers" />
+
+    <TextView
+        android:id="@+id/highestscore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/totalscore"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="53dp"
+        android:layout_marginLeft="53dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center_horizontal"
+        android:text="Highest Score"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        app:fontFamily="@font/bangers" />
+
+</RelativeLayout>
